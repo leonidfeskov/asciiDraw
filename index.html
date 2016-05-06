@@ -15,10 +15,11 @@
 <body>
 	<div class="pic"></div>
 	<script>
-		//var ASCIIColors = ['#', '@', '%', '$', 'W', 'C', 'u', '>', '=', '+', '*', ':', '-', ',', '.', ' '];
-		var ASCIIColors = ['#', '@', '%', '=', '+', '*', ':', '-', '.', ' '];
+		//var string = '$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,"^`. ';
+		var string = '@#%=+*:-. ';
+		var ASCIIColors = string.split('');
 		var limit = 1000000;
-		var pictures = ['mts.png', 'picture.png', 'picture-small.png'];
+		var pictures = ['necr.png', 'venom.png', 'axe.png', 'sven.png', 'pudge.png', 'never.png', 'lich.png',  'zombi.png', 'darkseer.png', 'ursa.png', 'lina.png', 'invoker.png', 'balanar.png', 'kunka.png', 'spektra.png', 'puck.png'];
 		var activePic = 0;
 
 		var loadTexture = function (name, then) {
