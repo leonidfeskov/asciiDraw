@@ -1,2 +1,3 @@
 # asciiDraw
-image convert to ASCII
+Рисует небольшие изображение символами
+[Demo](http://leonidfeskov.github.io/asciiDraw/)
