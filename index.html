@@ -5,16 +5,22 @@
 	<title>Pixel</title>
 	<style>
 		html, body {margin: 0;}
+		.original {
+			margin: 10px 0;
+			text-align: center;
+		}
 		.pic {
 			font-family: monospace;
 			white-space: pre;
 			font-size: 8px;
+			text-align: center;
+			margin-bottom: 20px;
 		}
 	</style>
 </head>
 <body>
-	<div><input type="file" class="js-file"></div>
-	<img class="js-preview" src="">
+	<div>Загрузите изображение <input type="file" class="js-file"></div>
+	<div class="original"><img class="js-preview" src=""></div>
 	<div class="pic js-ascii-image"></div>
 	<script src="js/main.js"></script>
 </body>
