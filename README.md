@@ -1,3 +1,4 @@
 # asciiDraw
-Рисует небольшие изображение символами
+Рисует изображение текстовыми символами
+
 [Demo](http://leonidfeskov.github.io/asciiDraw/)
